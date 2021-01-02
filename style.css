@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    float: none;
+	position: static;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+#can {
+
+    float: left;
+    margin-left: 100px
+}
+
+ul {
+
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.item p {
+    /*-ms-writing-mode: tb-rl;
+    writing-mode: tb-rl;*/
+    font-family: Impact;
+    font-size: 500%;
+    font-stretch:extra-expanded;
+    color: red;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border: 5px solid black;
+    text-align: center;
+    text-shadow: 10px 10px 3px black;
+    
+}
+
+@media screen and (max-width:480px) {
+    
+}
